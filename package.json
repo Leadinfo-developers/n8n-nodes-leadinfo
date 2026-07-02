@@ -4,6 +4,9 @@
 	"description": "n8n node for Leadinfo — trigger workflows when Leadinfo identifies a company or contact on your website",
 	"license": "MIT",
 	"homepage": "https://github.com/Leadinfo-developers/n8n-nodes-leadinfo",
+	"publishConfig": {
+		"access": "public"
+	},
 	"keywords": [
 		"n8n-community-node-package",
 		"leadinfo",
