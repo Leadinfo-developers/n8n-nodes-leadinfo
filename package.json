@@ -22,6 +22,7 @@
 		"build": "n8n-node build",
 		"build:watch": "tsc --watch",
 		"dev": "n8n-node dev",
+		"dev:local": "n8n-node dev --external-n8n",
 		"lint": "n8n-node lint",
 		"lint:fix": "n8n-node lint --fix",
 		"release": "n8n-node release",
@@ -37,7 +38,10 @@
 			"dist/credentials/LeadinfoOAuth2Api.credentials.js"
 		],
 		"nodes": [
-			"dist/nodes/LeadinfoTrigger/LeadinfoTrigger.node.js"
+			"dist/nodes/LeadinfoTriggerCompany/LeadinfoTriggerCompany.node.js",
+			"dist/nodes/LeadinfoTriggerContact/LeadinfoTriggerContact.node.js",
+			"dist/nodes/LeadinfoShareCompany/LeadinfoShareCompany.node.js",
+			"dist/nodes/LeadinfoShareContact/LeadinfoShareContact.node.js"
 		]
 	},
 	"devDependencies": {
