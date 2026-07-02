@@ -1,6 +1,7 @@
 import type { IHookFunctions, IDataObject } from 'n8n-workflow';
 
 const BASE_URL = 'https://api.leadinfo.com';
+// const BASE_URL = 'http://host.docker.internal';
 
 export async function registerLeadinfoWebhook(this: IHookFunctions, type: string): Promise<boolean> {
 	const url = this.getNodeWebhookUrl('default') as string;

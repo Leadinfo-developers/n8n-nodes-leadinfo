@@ -21,6 +21,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			name: 'authUrl',
 			type: 'hidden',
 			default: 'https://portal.leadinfo.com/oauth2/authorize',
+			// default: 'http://host.docker.internal:3000/oauth2/authorize',
 			required: true,
 		},
 		{
@@ -28,6 +29,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			name: 'accessTokenUrl',
 			type: 'hidden',
 			default: 'https://api.leadinfo.com/oauth2/token',  
+			// default: 'http://host.docker.internal/oauth2/token',
 			required: true,
 		},
 		{
