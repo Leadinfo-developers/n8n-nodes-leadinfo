@@ -11,7 +11,9 @@ export class LeadinfoShareCompany implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Leadinfo — Company Shared',
 		name: 'leadinfoShareCompany',
-		icon: { light: 'file:../../icons/leadinfo.svg', dark: 'file:../../icons/leadinfo.svg' },
+		icon: 'file:../../icons/leadinfo.svg',
+		subtitle: 'Company Shared',
+		usableAsTool: true,
 		group: ['trigger'],
 		version: 1,
 		description: 'Triggers when a company is shared to n8n from the Leadinfo inbox',

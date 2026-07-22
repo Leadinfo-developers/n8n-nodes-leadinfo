@@ -11,7 +11,9 @@ export class LeadinfoTriggerCompany implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Leadinfo — Company Triggered',
 		name: 'leadinfoTriggerCompany',
-		icon: { light: 'file:../../icons/leadinfo.svg', dark: 'file:../../icons/leadinfo.svg' },
+		icon: 'file:../../icons/leadinfo.svg',
+		subtitle: 'Company Triggered',
+		usableAsTool: true,
 		group: ['trigger'],
 		version: 1,
 		description: 'Triggers when a company is triggered to n8n from the Leadinfo inbox',

@@ -11,7 +11,9 @@ export class LeadinfoShareContact implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Leadinfo — Contact Shared',
 		name: 'leadinfoShareContact',
-		icon: { light: 'file:../../icons/leadinfo.svg', dark: 'file:../../icons/leadinfo.svg' },
+		icon: 'file:../../icons/leadinfo.svg',
+		subtitle: 'Contact Shared',
+		usableAsTool: true,
 		group: ['trigger'],
 		version: 1,
 		description: 'Triggers when a contact is shared to n8n from the Leadinfo inbox',

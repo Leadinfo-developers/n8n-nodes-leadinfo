@@ -3,6 +3,8 @@ import type { ICredentialType, INodeProperties } from 'n8n-workflow';
 export class LeadinfoOAuth2Api implements ICredentialType {
 	name = 'leadinfoOAuth2Api';
 
+	icon = 'file:../icons/leadinfo.svg' as const;
+
 	extends = ['oAuth2Api'];
 
 	displayName = 'Leadinfo OAuth2 API';

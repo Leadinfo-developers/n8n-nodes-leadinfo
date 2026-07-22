@@ -11,7 +11,9 @@ export class LeadinfoTriggerContact implements INodeType {
 	description: INodeTypeDescription = {
 		displayName: 'Leadinfo — Contact Triggered',
 		name: 'leadinfoTriggerContact',
-		icon: { light: 'file:../../icons/leadinfo.svg', dark: 'file:../../icons/leadinfo.svg' },
+		icon: 'file:../../icons/leadinfo.svg',
+		subtitle: 'Contact Triggered',
+		usableAsTool: true,
 		group: ['trigger'],
 		version: 1,
 		description: 'Triggers when a contact is triggered to n8n from the Leadinfo inbox',
