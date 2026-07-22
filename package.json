@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-leadinfo",
-	"version": "1.0.3",
+	"version": "1.0.4",
 	"description": "n8n node for Leadinfo — trigger workflows when Leadinfo identifies a company or contact on your website",
 	"license": "MIT",
 	"homepage": "https://github.com/Leadinfo-developers/n8n-nodes-leadinfo",
