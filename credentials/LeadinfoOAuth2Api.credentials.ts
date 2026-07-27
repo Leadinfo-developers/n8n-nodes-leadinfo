@@ -16,7 +16,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			displayName: 'Grant Type',
 			name: 'grantType',
 			type: 'hidden',
-			default: 'authorizationCode',
+			default: 'pkce',
 		},
 		{
 			displayName: 'Authorization URL',
@@ -35,6 +35,19 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			required: true,
 		},
 		{
+			displayName: 'Client ID',
+			name: 'clientId',
+			type: 'hidden',
+			default: 'f916d67e14c3e914755950d837c64791c84cfa2d',
+			required: true,
+		},
+		{
+			displayName: 'Client Secret',
+			name: 'clientSecret',
+			type: 'hidden',
+			default: '',
+		},
+		{
 			displayName: 'Scope',
 			name: 'scope',
 			type: 'hidden',
@@ -50,7 +63,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			displayName: 'Authentication',
 			name: 'authentication',
 			type: 'hidden',
-			default: 'header',
+			default: 'body',
 		},
 	];
 }
