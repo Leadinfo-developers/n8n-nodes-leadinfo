@@ -45,6 +45,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 			displayName: 'Client Secret',
 			name: 'clientSecret',
 			type: 'hidden',
+			typeOptions: { password: true },
 			default: '',
 		},
 		{
