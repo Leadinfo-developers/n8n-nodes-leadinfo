@@ -9,7 +9,7 @@ export class LeadinfoOAuth2Api implements ICredentialType {
 
 	displayName = 'Leadinfo OAuth2 API';
 
-	documentationUrl = 'https://www.leadinfo.com';
+	documentationUrl = 'https://help.leadinfo.com/en/n8n-integration';
 
 	properties: INodeProperties[] = [
 		{

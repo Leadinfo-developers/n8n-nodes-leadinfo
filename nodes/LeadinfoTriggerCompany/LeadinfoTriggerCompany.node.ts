@@ -16,7 +16,7 @@ export class LeadinfoTriggerCompany implements INodeType {
 		usableAsTool: true,
 		group: ['trigger'],
 		version: 1,
-		description: 'Triggers when a company is triggered to n8n from the Leadinfo inbox',
+		description: 'Triggers when a company meets the rules of a Leadinfo trigger',
 		defaults: { name: 'Leadinfo — Company Triggered' },
 		inputs: [],
 		outputs: [NodeConnectionTypes.Main],
